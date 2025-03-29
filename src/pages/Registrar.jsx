@@ -13,7 +13,7 @@ const Registro = () => {
     e.preventDefault();
     
     try {
-      const response = await fetch('https://18.222.225.151/crear_usuario', {
+      const response = await fetch('https://18.222.225.151/crear', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
